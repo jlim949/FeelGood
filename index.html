@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./css/fakeLoader.css">
+        <link rel="stylesheet" type="text/css" href="./node_modules/sweetalert/dist/sweetalert.css">
+        <title>FeelBetter</title>.
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+    </head>
+    <body>
+        <div id="fakeLoader"></div>
+        <div class="container" id="page-container">
+            <h1 id="app-name">
+                FeelBetter
+            </h1>
+            <h2 id="page-header">
+                FeelBetter will always leave you in a better mood.
+            </h2>
+            <h2 id = "sentenceDisplay">
+                
+            </h2>
+            <div class="btn-wrapper">
+                <label class="btn btn-info" for="my-file-selector">
+                    <input id="my-file-selector" type="file">
+                    Take a selfie and upload it
+                </label>
+                <button type="button" class="btn btn-info" id="refreshbtn">Another song please</button>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="./js/fakeLoader.min.js"></script>
+        <script type="text/javascript">
+            $("#fakeLoader").fakeLoader();
+        </script>
+        <script src="./node_modules/sweetalert/dist/sweetalert.min.js"></script>
+        <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+        <!--Bootstrap Script-->
+        <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <!--Custom Script-->
+        <script src="./js/main.js"></script>
+    </body>
+</html>
